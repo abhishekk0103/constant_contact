@@ -120,24 +120,6 @@ const app = {
     },
     actions : {
     },
-    // git remote add origin https://github.com/abhishekk0103/constant_contact.git
-// git branch -M main
-// git push -u origin main
-// git commit -m "initial commit"
-// git push origin main
-
-// git init
-// git add .
-// git commit -m 'message'
-// git *create remote
-// git push -u origin master
-
-// git init
-// git add .
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin "_git repository link here_"
-// git push -u origin main
     triggers: {
         new_contact: {
           description: "Contact Created",
