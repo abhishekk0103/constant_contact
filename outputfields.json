@@ -1,0 +1,209 @@
+[
+  {
+    "key": "success",
+    "name": "Success",
+    "hintText": "Success",
+    "helpText": "Success",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "boolean",
+    "controlType": "select",
+    "pickList": [
+      [
+        "Yes",
+        true
+      ],
+      [
+        "No",
+        false
+      ]
+    ]
+  },
+  {
+    "key": "statusCode",
+    "name": "Status Code",
+    "hintText": "Status Code",
+    "helpText": "Status Code",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "response",
+    "name": "Response",
+    "hintText": "Response",
+    "helpText": "Response",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "object",
+    "controlType": "object",
+    "properties": [
+      {
+        "key": "events",
+        "name": "Events",
+        "hintText": "Events",
+        "helpText": "Events",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "array",
+        "controlType": "array",
+        "as": "object",
+        "properties": [
+          {
+            "key": "contact_id",
+            "name": "Contact Id",
+            "hintText": "Contact Id",
+            "helpText": "Contact Id",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "string",
+            "controlType": "text"
+          },
+          {
+            "key": "email_address",
+            "name": "Email Address",
+            "hintText": "Email Address",
+            "helpText": "Email Address",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "object",
+            "controlType": "object",
+            "properties": [
+              {
+                "key": "address",
+                "name": "Address",
+                "hintText": "Address",
+                "helpText": "Address",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              },
+              {
+                "key": "permission_to_send",
+                "name": "Permission To Send",
+                "hintText": "Permission To Send",
+                "helpText": "Permission To Send",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              },
+              {
+                "key": "created_at",
+                "name": "Created At",
+                "hintText": "Created At",
+                "helpText": "Created At",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              },
+              {
+                "key": "updated_at",
+                "name": "Updated At",
+                "hintText": "Updated At",
+                "helpText": "Updated At",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              },
+              {
+                "key": "opt_in_source",
+                "name": "Opt In Source",
+                "hintText": "Opt In Source",
+                "helpText": "Opt In Source",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              },
+              {
+                "key": "opt_in_date",
+                "name": "Opt In Date",
+                "hintText": "Opt In Date",
+                "helpText": "Opt In Date",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              },
+              {
+                "key": "confirm_status",
+                "name": "Confirm Status",
+                "hintText": "Confirm Status",
+                "helpText": "Confirm Status",
+                "isExtendedSchema": false,
+                "required": false,
+                "type": "string",
+                "controlType": "text"
+              }
+            ]
+          },
+          {
+            "key": "first_name",
+            "name": "First Name",
+            "hintText": "First Name",
+            "helpText": "First Name",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "string",
+            "controlType": "text"
+          },
+          {
+            "key": "last_name",
+            "name": "Last Name",
+            "hintText": "Last Name",
+            "helpText": "Last Name",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "string",
+            "controlType": "text"
+          },
+          {
+            "key": "create_source",
+            "name": "Create Source",
+            "hintText": "Create Source",
+            "helpText": "Create Source",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "string",
+            "controlType": "text"
+          },
+          {
+            "key": "created_at",
+            "name": "Created At",
+            "hintText": "Created At",
+            "helpText": "Created At",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "string",
+            "controlType": "text"
+          },
+          {
+            "key": "updated_at",
+            "name": "Updated At",
+            "hintText": "Updated At",
+            "helpText": "Updated At",
+            "isExtendedSchema": false,
+            "required": false,
+            "type": "string",
+            "controlType": "text"
+          }
+        ]
+      },
+      {
+        "key": "nextPoll",
+        "name": "Next Poll",
+        "hintText": "Next Poll",
+        "helpText": "Next Poll",
+        "isExtendedSchema": false,
+        "required": false,
+        "type": "string",
+        "controlType": "text"
+      }
+    ]
+  }
+]
