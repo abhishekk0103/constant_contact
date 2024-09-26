@@ -14,8 +14,8 @@ const app = {
     webhook_verification_required : false,
     internal : false,
     connection : {
-        client_id : "06a872d9-c298-4670-a4e4-0fe4c4c324d3",
-        client_secret : "-TtGc2GyfOm1XZ3CeL27Bw",
+        client_id : "client_id",
+        client_secret : "client_secret",
         redirect_uri : "https://proxy.quickwork.co.in/constant_contact/code",
         authorization: {
             type: "oauth_2",
